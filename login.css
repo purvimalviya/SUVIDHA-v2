@@ -74,3 +74,23 @@ a{
     flex-direction: row;
   }
   
+@media screen and (max-width: 750px) {
+    .whole{
+      flex-direction: column;
+    }
+
+    .logo{
+      width: auto;
+      height: 200px;
+    }
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    
+    .login{
+      height: calc(100vh - 200px);
+    }
+}
