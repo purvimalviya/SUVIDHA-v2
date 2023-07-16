@@ -74,3 +74,7 @@ body{
     height: 50px;
     margin-top: 15px;
 }
+
+.text_decoration{
+    text-decoration: none;
+}
