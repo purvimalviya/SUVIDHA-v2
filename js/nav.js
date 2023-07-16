@@ -1,4 +1,5 @@
 const username_div = document.querySelector('.header-icons');
+const logout_btn = document.querySelector('.logout_btn');
 
 window.addEventListener('load',()=>{
     let username = localStorage.getItem('login_username');
@@ -8,3 +9,13 @@ window.addEventListener('load',()=>{
         username_div.style.display = 'none';
     }
 })
+
+if(logout_btn){
+    logout_btn.addEventListener('click',()=>{
+        localStorage.removeItem('login_username');
+        username_div.style.display = 'none';
+        if(logout_btn.classList.contains('fromWant')){
+            location.href = 'index.html';
+        }
+    })
+}

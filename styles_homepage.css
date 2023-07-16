@@ -48,7 +48,7 @@ body{
   width: 130px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   color: #ffffff;
 }
 .header-icons .account img{
