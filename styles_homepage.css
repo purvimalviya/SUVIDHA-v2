@@ -10,7 +10,7 @@
   font-family: "Poppins", sans-serif;
 }
 body{
-  background: rgb(222, 222, 222);
+  background: rgb(245, 245, 245);
 }
 .header{
   display: flex;
@@ -18,7 +18,10 @@ body{
   justify-content: space-between;
   height: 60px;
   padding: 20px;
-  background: #15653b;
+  /* background: #15653b; */
+  /* background-color: #deebdd; */
+  background-image: linear-gradient(315deg, #6b8e6b 0%, #38593b 74%);
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 .logo{
   display: flex;
@@ -64,6 +67,7 @@ body{
 nav{
   background: #fff;
   border-radius: 0px 50px 50px 0px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .side_navbar{
   padding: 1px;
@@ -91,10 +95,11 @@ nav{
   font-size: 13px;
 }
 .side_navbar a:hover{
-  background: rgb(235, 235, 235);
+  background: rgb(212, 177, 210);
+  color: white;
 }
 .side_navbar .active{
-  border-left: 2px solid rgb(100, 100, 100);
+  border-left: 8px solid rgb(147, 37, 141);
 }
 
 /* Main Body Section */
@@ -105,21 +110,22 @@ nav{
 }
 .promo_card{
   width: 100%;
-  color: #fff;
+  color: #000000d5;
   margin-top: 10px;
   border-radius: 50px;
   padding: 0.5rem 1rem 1rem 3rem;
-  background: rgb(69, 1, 56);
+  background: #ffffff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-.promo_card h1, .promo_card span, button{
-  margin: 10px;
+.promo_card h1, .promo_card p, button{
+  margin: 12px 8px;
 }
-.promo_card button{
-  display: block;
-  padding: 6px 12px;
-  border-radius: 5px;
-  cursor: pointer;
+.quote{
+  color: #000000d9;
+  font-size: 12px;
+  font-weight: 800;
 }
+
 .history_lists{
   display: flex;
   align-items: center;
@@ -137,6 +143,7 @@ table{
   padding: 1rem;
   text-align: left;
   border-radius: 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 table td, th{
   padding: 0.2rem 0.8rem;
@@ -164,6 +171,7 @@ table td{
     margin-right: 20px;
     height: 80px;
     width: 90px;
+    border-radius: 30px;
 }
 .imlogo{
     height: 60px;
@@ -174,9 +182,9 @@ table td{
     background: #fff;
     max-width: 500px;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 20px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.158) 0px -2px 6px 0px inset;
     font-size: 15px;
     margin-bottom: 2px;
 }
