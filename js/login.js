@@ -2,7 +2,7 @@ const login__btn = document.querySelector('.login__btn');
 const login__email = document.querySelector('.login__email');
 const login__password = document.querySelector('.login__password');
 
-const URL = 'http://localhost:5000/auth';
+const URL = 'https://suvidha-backend.vercel.app/auth';
 
 login__btn.addEventListener('click',async()=>{
     try {

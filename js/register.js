@@ -3,7 +3,7 @@ const register_name = document.querySelector('.register__name');
 const register_email = document.querySelector('.register__email');
 const register_password = document.querySelector('.register__password');
 
-const URL = 'http://localhost:5000/auth';
+const URL = 'https://suvidha-backend.vercel.app/auth';
 
 register_btn.addEventListener('click', async ()=>{
     try {
