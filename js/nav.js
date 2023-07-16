@@ -1,5 +1,11 @@
 const username_div = document.querySelector('.header-icons');
 const logout_btn = document.querySelector('.logout_btn');
+const nav_opener = document.querySelector('.nav');
+const nav = document.querySelector('nav');
+
+nav_opener.addEventListener('click',()=>{
+    nav.classList.toggle('active');
+})
 
 window.addEventListener('load',()=>{
     let username = localStorage.getItem('login_username');

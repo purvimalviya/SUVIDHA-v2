@@ -78,3 +78,35 @@ body{
 .text_decoration{
     text-decoration: none;
 }
+
+@media screen and (max-width: 750px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contentTitle{
+        text-align: center;
+        font-size: 90px;
+    }
+    .content{
+        padding: 0;
+        margin: 50px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .option{
+        padding: 0;
+        gap: 15px;
+    }
+
+    .op{
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+    }
+}

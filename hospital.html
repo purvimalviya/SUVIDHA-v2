@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin Dashboard | By Code Info</title>
   <link rel="stylesheet" href="styles_homepage.css" />
   <!-- Font Awesome Cdn Link -->
@@ -36,6 +37,19 @@
     iframe{
         margin-top: 150px;
         margin-right: 40px;
+    }
+
+    @media screen and (max-width: 750px) {
+        .maincontainer{
+          width: 90%;
+          height: auto;
+          margin: auto;
+        }
+        iframe{
+          width: 100%;
+          margin-right: 0;
+          margin-top: 45px;
+        }
     }
   </style>
 </head>
@@ -75,6 +89,7 @@
           <a href="wanthelp.html">Provide Help</a>
         </div>
       </div>
+      <div class="nav"></div>
     </nav>
    
         

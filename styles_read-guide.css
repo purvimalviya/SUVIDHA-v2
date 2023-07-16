@@ -151,3 +151,87 @@ nav{
 
 
 
+@media screen and (max-width: 750px) {
+
+  nav{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    translate: 0 -50%;
+    border-radius: 50px 0 0 50px;
+  }
+
+  nav:not(.active){
+    width: 0;
+  }
+
+  nav.active{
+    .nav{
+      visibility: hidden;
+      top: 0;
+      margin: 10px;
+    }
+
+    .nav::before{
+      rotate: -45deg;
+      visibility: visible;
+      translate: 0 16px;
+    }
+
+    .nav::after{
+      rotate: 45deg;
+      visibility: visible;
+    }
+  }
+
+  .nav::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: -7px;
+    background-color: inherit;
+  }
+
+  .nav{
+    width: 30px;
+    height: 2px;
+    background-color: rgb(147, 37, 141);
+    position: fixed;
+    right: 0;
+    top: 50%;
+    translate: 0 -50%;
+  }
+
+  .nav::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 14px;
+    background-color: inherit;
+  }
+
+  .side_navbar span{
+    font-size: 16px;
+  }
+
+  .side_navbar a{
+    font-size: 14px;
+  }
+
+  .links{
+    margin: 0;
+  }
+
+  .main-body{
+    width: auto;
+    padding: 0;
+    margin-right: 18px;
+  }
+
+  .promo_card{
+    width: auto;
+  }
+
+}
