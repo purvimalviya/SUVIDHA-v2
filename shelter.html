@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin Dashboard | By Code Info</title>
   <link rel="stylesheet" href="styles_homepage.css" />
   <!-- Font Awesome Cdn Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
   <style>
-      .whole{
+   
+   .whole{
         display: flex;
         /* flex-direction: ; */
       }
@@ -43,6 +43,11 @@
         margin-left: 20px;
     }
 
+    .map{
+      position: relative;
+      bottom: 7rem;
+    }
+
     button{
       /* margin: 5rem; */
       background-color: green;
@@ -54,29 +59,11 @@
       margin-top: 30px;
       font-weight: 700;
       border-radius: 10px;
-      cursor: pointer;
       /* position: relative; */
       /* bottom: 25rem;
       left: 7rem; */
     }
 
-    .map{
-      position: relative;
-      bottom: 7rem;
-    }
-/* 
-  .list{
-    position: relative;
-    bottom: 27rem;
-    left: 7rem;
-    font-weight: bold;
-    list-style-type: none;
-    /* text-decoration: none; */
-  
-
-  .list li{
-    text-decoration: none;
-  }
     @media screen and (max-width: 750px) {
         .maincontainer{
           width: 90%;
@@ -116,9 +103,9 @@
       <div class="side_navbar">
         <span>Menu</span>
         <a href="homepage.html">Home</a>
-        <a href="hospital.html" class="active">Hospitals</a>
+        <a href="hospital.html">Hospitals</a>
         <a href="foodutil.html">Food/Utilities</a>
-        <a href="shelter.html">Shelters</a>
+        <a href="shelter.html" class="active">Shelters</a>
         <a href="guides.html">Guides</a>
 
         <div class="links">
@@ -134,32 +121,32 @@
         <div class="whole">
           <div class="maincontainer">
 
-            <h2 class="">Some Hospital that provide you best facility </h2>
+            <h2>NGO Centers Currently Active </h2>
             <ul class="list">
-                <li>Community Health Council</li>
-                <li>Chauhan X-ray Lab</li>
-                <li>Vijay Clinic</li>
-                <li>Community Health Centre(CHC)</li>
-                <li>Seema hospital</li>
-                <li>Heema, Narayan niwas,</li>
-                <li>Chail hospital</li>
-                <li>Radha Behari Nikunj</li>
-                <li>Digital Eye hospital</li>
-                <li>Hospital Mandhorghat</li>
+                <li> Ruchi NGO</li>
+                <li>Human Hope Foundation</li>
+                <li> Incredible Himachal NGO</li>
+                <li>Lha Charitable Trust</li>
+                <li> Jagori Rural Charitable Trust</li>
+                <li>Gunjan Organization For Community Dev</li>
+                <li>SUTRA Social Uplift Through Rural Action</li>
+                <li> Waste Warriors Dharamsala</li>
+                <li>Human Hope Foundation</li>
             </ul>
-            <a href="hospitalsen.html">
+            <!-- <a href="">
               <div class="medical_cards">
-                <button>Medical cards enlisted</button>
+                <button>Shelter cards enlisted</button>
               </div>
-            </a>
+            </a> -->
           </div>
-            <div class="map">
 
-              <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1YU8TBMNRh43W8ouKJrC5aFPTJmzhw2E&ehbc=2E312F" width="740" height="580"></iframe>
-            </div>
+          <div class="map">
+
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=19SwSrKGGsNY-oMOnTlOKgvvsyYu0ssM&ehbc=2E312F" width="740" height="580"></iframe>     
+          </div>
         </div>     
-      
                </div>
-   <script src="js/nav.js"></script>
+               <script src="js/nav.js"></script>
+       
 </body>
 </html>
